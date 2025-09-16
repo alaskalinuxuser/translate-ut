@@ -16,7 +16,7 @@
 
 
 import QtQuick 2.9
-import Ubuntu.Components 1.3
+import Lomiri.Components 1.3
 //import QtQuick.Controls 2.2
 import QtQuick.Layouts 1.3
 import QtQuick.Controls 2.12 as QQC
@@ -220,7 +220,7 @@ Page {
                 input.text
             )
 
-            color: UbuntuColors.green
+            color: LomiriColors.green
             enabled: input.length != 0 ? true : false
 
             Layout.fillWidth: true
